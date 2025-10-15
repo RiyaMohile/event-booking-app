@@ -1,0 +1,11 @@
+.badge {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.green { background-color: #10b981; }  
+.orange { background-color: #f59e0b; } 
+.red { background-color: #ef4444; }    

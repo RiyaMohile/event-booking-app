@@ -1,0 +1,86 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* background: url('https://www.biworldwide.com/uk/wp-content/uploads/sites/16/2025/02/13.png') no-repeat center center fixed; */
+  background-size: cover;
+  background-color: #ecfdf5; 
+}
+
+.formCard {
+  background: rgba(255, 255, 255, 0.95); 
+  backdrop-filter: blur(10px);           
+  border-radius: 1rem;
+  padding: 3rem 2rem;                     
+  max-width: 36rem;                       
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formCard h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #18768b;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #d1d5db;
+  background-color: #f9fafb;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #46cbe5;
+  box-shadow: 0 4px 10px rgba(79,70,229,0.2);
+}
+
+.button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem 0;
+  border-radius: 0.75rem;
+  background-color: #46bde5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  background-color: #0e7192;
+  box-shadow: 0 4px 15px rgba(67,56,202,0.3);
+}
+
+
+@media (max-width: 768px) {
+  .formCard {
+    padding: 2.5rem 1.5rem;
+    max-width: 32rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .formCard {
+    padding: 2rem 1rem;
+    max-width: 100%;
+  }
+
+  .formCard h2 {
+    font-size: 1.5rem;
+  }
+}

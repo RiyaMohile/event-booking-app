@@ -1,0 +1,34 @@
+.card {
+  border: 1px solid #e5e7eb; 
+  border-radius: 0.75rem;     
+  padding: 1rem;              
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.title {
+  font-size: 1.25rem; 
+  font-weight: 700;   
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.date {
+  margin-bottom: 0.5rem;
+  color: #6b7280; 
+  font-size: 0.875rem;
+}
+
+.seats {
+  font-weight: 500;
+  color: #111827; 
+}

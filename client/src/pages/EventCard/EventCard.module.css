@@ -1,0 +1,47 @@
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background-color: #fdfdfd; 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.image {
+  width: 100%;
+  height: clamp(160px, 20vw, 240px); 
+  object-fit: cover;
+}
+
+.content {
+  padding: clamp(0.75rem, 2vw, 1rem);
+}
+
+.title {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: #4b5563; 
+  font-size: clamp(0.75rem, 2vw, 0.875rem); 
+}
+
+
+@media (max-width: 480px) {
+  .card {
+    margin-bottom: 1.2rem;
+  }
+}
